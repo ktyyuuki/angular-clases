@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root', // En este selector renderiza el componente
   templateUrl: './app.component.html',
   standalone: false,
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'clase-02';
+  title = 'Hola!';
+  userName = 'Yuuki';
+  userAge = 29;
 }
